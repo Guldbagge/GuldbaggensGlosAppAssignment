@@ -90,18 +90,6 @@
         correctAnswers = userAnswerForm.Answers.Count(answer =>
             answer.UserAnswer?.Trim().Equals(answer.English.Trim(), StringComparison.OrdinalIgnoreCase) == true);
 
-        foreach (var answer in userAnswerForm.Answers)
-        {
-            DbContext.WordAnswers.Add(new WordAnswer
-                {
-                    Swedish = answer.Swedish,
-                    English = answer.English,
-                    UserAnswer = answer.UserAnswer,
-                    Language = "English"
-                });
-        }
-
-        DbContext.SaveChanges();
         showResult = true;
     }
 
