@@ -163,3 +163,19 @@ main .wave-bg .container .btn-primary {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
+
+.btn-primary {
+  background-color: #194C67;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #0f2e3e;
+}
+
+.btn-success {
+  background-color: #F9A136;
+  border: none;
+}
+.btn-success:hover {
+  background-color: #f58a07;
+}

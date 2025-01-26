@@ -1,0 +1,18 @@
+﻿.btn-primary {
+    background-color: (#194C67);
+    border: none;
+
+
+    &:hover {
+        background-color: darken(#194C67, 10%);
+    }
+}
+
+.btn-success {
+    background-color: #F9A136; 
+    border: none;
+
+    &:hover {
+        background-color: darken(#F9A136, 10%); 
+    }
+}
